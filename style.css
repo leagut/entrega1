@@ -19,11 +19,12 @@ header{
     width: 100vw;
     height: 150px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 .nav-right{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 nav ul {
     list-style: none;
@@ -42,12 +43,13 @@ nav ul li{
     border: 1px solid blue;
     background-color: aqua;
     margin-left: 40px;
+    margin-top: 15px;
 }
 
 .lienzo-cel{
     margin: auto;
     border: 1px solid rgb(43, 226, 89);
-    background-color: aqua;
+    background-color: #F8F9FA;
     
     height: 500px;
     width: 100%;
@@ -83,11 +85,35 @@ main{
 .exis{
     position: absolute;
     z-index: 9;
-    left: 100px;
+    left: 10px;
+    bottom: 50px;
 }
 
 .videouno{
     z-index: 2;
     right: 10px;
 }
+
+.circulo{
+    position: absolute;
+    width: 315px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(236, 56, 212);
+}
+
+.punto{
+    position: absolute;
+    z-index: 9;
+    right: 3px;
+    top: 50px;
+}
+
+.talento{
+    display: flex;
+}
+
+
+
+
 
