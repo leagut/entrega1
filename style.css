@@ -43,3 +43,49 @@ nav ul li{
     background-color: aqua;
     margin-left: 40px;
 }
+
+.lienzo-cel{
+    border: 1px solid rgb(43, 226, 89);
+    background-color: aqua;
+    margin-left: 100px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    border: 1px  solid blueviolet;
+}
+
+.section-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cocouno{
+    position: absolute;
+    z-index: 8;
+    
+    
+}
+.exis{
+    position: absolute;
+    z-index: 9;
+    left: 100px;
+}
+
+.videouno{
+    z-index: 2;
+}
+
